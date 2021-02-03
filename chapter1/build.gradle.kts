@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-  implementation("io.vertx:vertx-core:4.0.0")
+  implementation("io.vertx:vertx-core:4.0.1")
 }
 
 java {

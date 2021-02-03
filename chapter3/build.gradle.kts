@@ -10,11 +10,11 @@ repositories {
 }
 
 dependencies {
-  implementation("io.vertx:vertx-core:4.0.0")
-  implementation("io.vertx:vertx-infinispan:4.0.0")
+  implementation("io.vertx:vertx-core:4.0.1")
+  implementation("io.vertx:vertx-infinispan:4.0.1")
   implementation("ch.qos.logback:logback-classic:1.2.3")
   testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.1")
-  testImplementation("io.vertx:vertx-junit5:4.0.0")
+  testImplementation("io.vertx:vertx-junit5:4.0.1")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.1")
 }
 
